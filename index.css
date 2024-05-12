@@ -1,0 +1,293 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Code Pro", monospace;
+}
+
+/* navbar */
+.navbar {
+  padding: 0.45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+background-color: rgb(248, 244, 238)
+}
+   
+  .navbar .navbar_logo {
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 15px;
+  color: rgb(6, 6, 117)
+  
+ 
+}
+.navbar .navbar_logo :hover {
+  color: red
+}
+
+.navbar .navbar_logo .navbar_logo_dot {
+  font-size: 50px;
+  color: red
+}
+
+.navbar .navbar_logo_greater_than { 
+  font-size: 20px;
+  color: red;
+ }
+
+ /* Navbarlinks section */
+ .navbar .navbarlinks .navbarlinks_items {
+  display: flex;
+  list-style: none;
+  margin: left 15;
+  padding: 0;
+  gap: 10px;
+}
+
+.navbarlinks_items a {
+  display: block;
+  color: rgb(6, 6, 117)
+
+}
+
+
+ .navbarlinks_items a{
+  display: flex;
+  list-style-type: none;
+  text-decoration: none;
+  gap: 10px;
+  margin-right: 20px;
+  font-size: 20px;
+
+}
+
+
+.navbarlinks_items a:hover {
+  transform: skew(8deg);
+  color: red 
+ 
+
+} 
+/* Hero section */
+/* Hero image section */
+.hero_section .hero_image {
+  padding: 45px;
+  width: 197vh;
+ height: 200vh;
+ background-image: url(/ClassWork/images/christina-wocintechchat-com-0Zx1bDv5BNY-unsplash.jpg);
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+
+} 
+
+/* Hero content info section */
+
+ .content_icon  div {
+  border: 2px solid rgb(30, 30, 102);
+  gap: 100px;
+  height: 50px;
+  width: 45px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.hero_image .content_icon {
+  padding: 10px;
+  gap: 30px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  color: rgb(30, 30, 102)
+
+}
+
+.hero_image .content_icon div:hover {
+  color: red
+  
+}
+
+.hero_section .name_intro {
+  font-size: 60px;
+  font-weight: bold;
+  color: rgb(30, 30, 102);
+  
+}
+
+.hero_section .hero_content_info {
+  font-size: 25px;
+  color: rgb(30, 30, 102);
+
+}
+
+.hero_section .hero_portfolio_youtube_links {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  
+  
+}
+
+.hero_section .hero_portfolio_youtube_links .Portfolio {
+  border: 2px solid rgb(30, 30, 102);
+    height: 35px;
+    width: 150px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    }
+
+   .hero_section .hero_portfolio_youtube_links .youtube ,b{
+    height: 40px;
+    width: 150px;
+    font-size: x-large;
+    
+    }
+    
+    /* Service section */
+    .services {
+      background-color: rgb(248, 244, 238)
+    }
+
+   .services {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    padding: 30px;
+    color: rgb(6, 6, 117)
+    
+    
+
+   }
+
+   .services .service_header h4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    padding: 30px;
+   }
+
+    .services .service_header h2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    padding: 30px;
+   }
+
+   .services .service_header p {
+    font-size: 18px;
+   }
+
+   .services .service_header p {
+    text-align: center;
+   }
+
+
+   
+    .services_info .services_info_items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 45px;
+   }
+
+   .services_info .services_info_item {
+    padding: 30px;
+    font-size: 17px;
+    height: 180px;
+    background-color: #d9d9df;
+    border-radius: 15px
+    
+   }
+   
+   @media screen and (max-width: 768px) {
+    .services_info_items{
+      grid-template-columns: repeat(3, 1fr);
+    }
+   }
+   /* footer section */
+   .footer {
+    padding: 20px;
+    background-color: rgb(117, 107, 107)
+  }
+
+  .footer .footer_logo {
+    font-size: 30px;
+  font-weight: bold;
+  margin-left: 15px;
+  color: rgb(6, 6, 117)
+  }
+
+ .footer_logo .nav_logo_dot  {
+    font-size: 50px;
+    color: red;
+  }
+
+  .footer_logo .nav_logo_greater_than {
+    font-size: 20px;
+    color: red;
+  }
+
+  .footer .footer_logo:hover {
+    color: red;
+  }
+
+    .footer_info .footer_icon {
+    padding: 10px;
+    font-size: 50px;
+    
+  }
+
+  .footer_items .footer_info {
+    font-size: 17px;
+    color: rgb(248, 244, 238);
+  }
+
+   .footer_icon .about_icon  {
+   gap: 20px;
+    color: rgb(248, 244, 238);
+    display: flex;
+    justify-content: center;
+    align-items: center
+    
+  }
+
+  .footer_items .footer_links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 25px;
+    font-size: 30px;
+    color: rgb(6, 6, 117);
+  }
+
+  .footer_items .copy_right{
+    color: rgb(248, 244, 238);
+  }
+  .footer_items .footer_links div{
+    border: 2px solid rgb(30, 30, 102);
+  gap: 50px;
+  height: 50px;
+  width: 45px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+  .footer_items .footer_links div:hover {
+    color: red;
+
+  }
+  
